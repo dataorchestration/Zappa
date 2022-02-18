@@ -21,7 +21,7 @@ test_required = [
 ]
 
 setup(
-    name="zappa",
+    name="do-zappa",
     version=__version__,
     packages=["zappa"],
     install_requires=required,
@@ -29,7 +29,7 @@ setup(
     test_suite="nose.collector",
     include_package_data=True,
     license="MIT License",
-    description="Server-less Python Web Services for AWS Lambda and API Gateway",
+    description="Server-less Python Web Services for AWS Lambda and API Gateway[forked]",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/zappa/Zappa",
